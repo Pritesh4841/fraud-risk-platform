@@ -1,0 +1,20 @@
+{
+  "baseline_dummy": {
+    "cv_average_precision": 0.025174999406483586,
+    "best_params": {}
+  },
+  "logistic_regression": {
+    "cv_average_precision": 0.07707760346342972,
+    "best_params": {
+      "model__C": 0.1
+    }
+  },
+  "random_forest": {
+    "cv_average_precision": 0.07071547873322222,
+    "best_params": {
+      "model__max_depth": 6,
+      "model__min_samples_leaf": 20
+    }
+  },
+  "selected_model": "logistic_regression"
+}

@@ -1,0 +1,24 @@
+# Versions pinned to the environment the project was developed and the models were trained in.
+# (.joblib files are tied to the scikit-learn version; if you use different versions,
+#  re-create the models with:  python -m src.train && python -m src.evaluate)
+
+# --- core ML ---
+numpy==2.5.4
+pandas==3.1.0
+scipy==1.18.1
+scikit-learn==1.9.1
+joblib==1.6.0
+
+# --- plots / EDA ---
+matplotlib==3.11.2
+seaborn==0.13.2
+jupyter==1.1.1
+
+# --- API ---
+fastapi==0.162.0
+uvicorn==0.54.0
+pydantic==2.14.1
+
+# --- tests ---
+pytest==9.1.1
+httpx==0.28.1
